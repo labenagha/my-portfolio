@@ -84,18 +84,11 @@ nav > ul > a {
   font-weight: 900;
 }
 
-.social-icons {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  padding: 0;
-  margin: 0;
-}
-
 .social-section {
   width: 90%;
   margin: 2rem auto;
 }
+
 .social-section p {
   color: darkgoldenrod;
   font-family: "Crimson Text", serif;
@@ -111,6 +104,10 @@ nav > ul > a {
   padding: 0;
   margin: 0;
   font-size: 3rem;
+}
+
+.social-icons a:hover {
+  color: blue;
 }
 
 .social-icons a {

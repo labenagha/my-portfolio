@@ -35,7 +35,7 @@ nav > ul > a {
 .content-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 90%;
     margin: 0 auto;
     margin: 2rem auto;
@@ -60,7 +60,76 @@ nav > ul > a {
 .text p {
     color: grey;
     margin-top: 10px;
-    font-family: "Playwrite AU VIC Guides", serif;
+    font-family: "Crimson Text", serif;
+    font-style: italic;
+}
+
+.btn {
+  color: white;
+  background-color: darkgreen;
+  padding: 1rem 7rem;
+  font-family: "Crimson Text", serif;
+  cursor: pointer;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 900;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.social-section {
+  width: 90%;
+  margin: 2rem auto;
+}
+.social-section p {
+  color: darkgoldenrod;
+  font-family: "Crimson Text", serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.site-footer {
+  background-color: darkgoldenrod;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: "Crimson Text", serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 400;
 }
 
 /* ----------------------------------------------------

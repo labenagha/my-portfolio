@@ -49,12 +49,12 @@ nav > ul > a {
 
 .left-column p {
     color: darkgoldenrod;
-
 }
 
 .text h2 {
     text-transform: uppercase;
     font-family: "Crimson Text", serif;
+    font-size: x-large;
 }
 
 .text p {
@@ -67,10 +67,10 @@ nav > ul > a {
 .btn {
   color: white;
   background-color: darkgreen;
-  padding: 1rem 7rem;
+  padding: 1rem 5rem;
   font-family: "Crimson Text", serif;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 60px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;

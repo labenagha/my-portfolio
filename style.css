@@ -371,6 +371,13 @@ section > h2 {
       margin: 0 auto; /* Ensure each box is centered */
       text-align: center; /* Center text and content inside */
   }
+
+  .resume-box {
+    position: static; /* Reset positioning */
+    margin: 2rem auto; /* Center the button horizontally */
+    width: auto; /* Adjust width to fit content */
+    text-align: center; /* Ensure text stays centered */
+  }
 }
   
 @media (max-width: 480px) {
@@ -422,6 +429,14 @@ section > h2 {
       max-width: 350px; /* Limit maximum width */
       margin: 0 auto; /* Center each box */
       text-align: center; /* Center text and content inside */
+    }
+
+    .resume-box {
+      position: static; /* Reset positioning */
+      margin: 1.5rem auto; /* Center the button */
+      width: 90%; /* Make it fit within the viewport */
+      max-width: 300px; /* Optional: Limit the max width */
+      text-align: center;
     }
 }
 

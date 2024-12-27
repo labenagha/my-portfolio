@@ -123,7 +123,7 @@ section > h2 {
   background: black;
 }
 
-div.parent > div > h3 {
+.parent > div > h3 {
   text-align: center;
   color: white;
 }
@@ -272,9 +272,14 @@ div.parent > div > h3 {
     .skill p {
       font-size: 1rem;
     }
-  }
+
+    .parent {
+      flex-direction: column;
+      align-items: center;
+    }
+}
   
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     nav > div > img {
       height: 60px; 
     }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>My Portfolio</title>
     <link href="./style.css" rel="stylesheet">
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
@@ -15,7 +15,8 @@
       <img src="./assets/logo.jpg" alt="My Logo" />
     </div>
     <ul class="nav-menu">
-      <a href="">Recent Work</a>
+      <a href="#recent-work">Recent Work</a>
+      <a href="#skills-section">Skills</a>
       <a href="">Contact</a>
     </ul>
   </nav>
@@ -32,8 +33,56 @@
         <button id="btn" class="btn" type="button">Send An Email</button>
       </div>
     </div>
-    <img src="./assets/my-photo.jpg" alt="Developer Image" />
+    <img src="./assets/my-photo.png" alt="Developer Image" />
   </div>
+
+  <section id="recent-work">
+    <h2>Recent Projects</h2>
+  
+    <div class="parent">
+      <div class="left-box">
+        <img src="./assets/spectrum.png" alt="Project 1 Image" class="project-image" />
+        <h3 class="project-title">Online Resume</h3>
+        <p class="project-description">I developed an online version of my resume to provide viewers with easy access to my professional background and qualifications.</p>
+        <a href="https://github.com/labenagha/online-resume" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+  
+      <div class="right-box">
+        <img src="./assets/electric.png" alt="Project 1 Image" class="project-image" />
+        <h3 class="project-title">Terraform Iac Enforcer</h3>
+        <p class="project-description">I have designed this to enforce Azure Cloud Adoption Framework (CAF) naming conventions for specific Azure resources, such as resource groups, virtual machines, etc.</p>
+        <a href="https://github.com/labenagha/iac-enforcer" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills-section" class="section-skills" >
+    <h2>Skills</h2>
+    <p>Over the past three years in my cloud engineering career, I have acquired extensive experience with a variety of tools and technologies, including AWS, Docker, Kubernetes, and Terraform. Recently, my passion for web development has grown, enabling me to develop skills in HTML, CSS, JavaScript, and React.</p>
+    <h2>Tools</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt"></i>
+        <p>CSS3</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-react"></i>
+        <p>React</p>
+      </div>
+      <div class="skill">
+        <i class="fab fa-python"></i>
+        <p>Python</p>
+      </div>
+    </div>
+  </section>
 
   <div class="social-section">
     <p>Follow on LinkedIn</p>

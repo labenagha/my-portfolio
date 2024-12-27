@@ -81,13 +81,13 @@ nav > ul > a {
 
 .btn {
   color: white;
-  background-color: darkgreen;
-  padding: 1rem 5rem;
+  background-color: darkblue;
+  padding: 1rem 2rem;
   font-family: "Crimson Text", serif;
   cursor: pointer;
-  border-radius: 60px;
+  border-radius: 100px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: 1rem;
 }
 
@@ -245,7 +245,7 @@ section > h2 {
 }
 
 .resume-box {
-  background-color: darkgreen;
+  background-color: darkblue;
   color: white;
   border-radius: 100px;
   text-align: center;
@@ -366,8 +366,10 @@ section > h2 {
     }
 
     .left-box, .right-box {
-      width: 90%; /* Make the boxes responsive */
-      max-width: 400px; /* Optional: Limit maximum width */
+      width: 90%; /* Make boxes responsive */
+      max-width: 400px; /* Limit maximum width */
+      margin: 0 auto; /* Ensure each box is centered */
+      text-align: center; /* Center text and content inside */
   }
 }
   
@@ -407,7 +409,7 @@ section > h2 {
     .skill p {
       font-size: 0.9rem;
     }
-    
+
     .parent {
       flex-direction: column;
       justify-content: center;
@@ -416,8 +418,10 @@ section > h2 {
     }
 
     .left-box, .right-box {
-        width: 100%; /* Full width on smaller screens */
-        max-width: 350px; /* Optional: Limit maximum width */
+      width: 100%; /* Full width for smaller screens */
+      max-width: 350px; /* Limit maximum width */
+      margin: 0 auto; /* Center each box */
+      text-align: center; /* Center text and content inside */
     }
 }
 

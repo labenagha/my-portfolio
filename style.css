@@ -53,7 +53,7 @@ nav > ul > a {
   background: fixed;
   height: 100px;
   width: 100px;
-  border-radius: 100px;
+  border-radius: 40px;
   border: 1rem;
 }
 
@@ -239,9 +239,41 @@ section > h2 {
   text-transform: none;
 }
 
+.resume-box {
+  background-color: darkgreen;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  font-style: italic;
+  width: 190px;
+  position: relative;
+  left: 60rem;
+  font-family: "Crimson Text", serif;
+}
+
+.resume-box a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-box:hover {
+  background-color: goldenrod;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 900px;
+  margin-left: 100px;
+  margin-right: 40px;
+  margin-top: 90px;
+}
+
 .social-section {
-  width: 90%;
-  margin: 2rem auto;
+  margin: 20px;
 }
 
 .social-section p {
